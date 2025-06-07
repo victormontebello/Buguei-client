@@ -1,4 +1,3 @@
-
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -8,6 +7,7 @@ import { ThemeProvider } from "@/contexts/ThemeContext";
 import Index from "./pages/Index";
 import PostDetail from "./pages/PostDetail";
 import NotFound from "./pages/NotFound";
+import Articles from "./pages/Articles";
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -29,6 +29,7 @@ const App = () => (
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Index />} />
+            <Route path="/articles" element={<Articles />} />
             <Route path="/post/:id" element={<PostDetail />} />
             <Route path="*" element={<NotFound />} />
           </Routes>

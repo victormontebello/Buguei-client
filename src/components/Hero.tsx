@@ -39,7 +39,7 @@ export const Hero = () => {
         </div>
         
         <a
-          href="#articles"
+          href="/articles"
           className="inline-flex items-center space-x-2 bg-blue-600 dark:bg-blue-700 text-white px-8 py-4 rounded-full font-semibold hover:bg-blue-700 dark:hover:bg-blue-600 transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl"
         >
           <span>Leia meus artigos</span>
