@@ -1,10 +1,9 @@
-
 import { Github, Linkedin, Mail, ArrowRight } from "lucide-react";
 
 export const Hero = () => {
   return (
-    <section className="py-20 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-4xl mx-auto text-center">
+    <section className="py-20 px-2 sm:px-4 lg:px-6">
+      <div className="text-center">
         <div className="mb-8">
           <img
             src="https://images.unsplash.com/photo-1649972904349-6e44c42644a7?w=400&h=400&fit=crop&crop=face"

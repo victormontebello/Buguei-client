@@ -1,4 +1,3 @@
-
 import { ArrowRight, ArrowLeft, Clock, User } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useRef } from "react";
@@ -19,8 +18,8 @@ export const FeaturedArticles = () => {
 
   if (isLoading) {
     return (
-      <section className="py-20 px-6 bg-white dark:bg-slate-900">
-        <div className="max-w-6xl mx-auto">
+      <section className="py-20 px-2 sm:px-4 lg:px-6 bg-white dark:bg-slate-900">
+        <div>
           <h2 className="text-3xl font-bold text-center mb-8 text-slate-800 dark:text-white">
             Artigos em destaque
           </h2>
@@ -38,8 +37,8 @@ export const FeaturedArticles = () => {
 
   if (error || !posts || posts.length === 0) {
     return (
-      <section className="py-20 px-6 bg-white dark:bg-slate-900">
-        <div className="max-w-6xl mx-auto">
+      <section className="py-20 px-2 sm:px-4 lg:px-6 bg-white dark:bg-slate-900">
+        <div>
           <h2 className="text-3xl font-bold text-center mb-8 text-slate-800 dark:text-white">
             Artigos em destaque
           </h2>
@@ -52,8 +51,8 @@ export const FeaturedArticles = () => {
   }
 
   return (
-    <section className="py-20 px-6 bg-white dark:bg-slate-900">
-      <div className="max-w-6xl mx-auto">
+    <section className="py-20 px-2 sm:px-4 lg:px-6 bg-white dark:bg-slate-900">
+      <div>
         <h2 className="text-3xl font-bold text-center mb-8 text-slate-800 dark:text-white">
           Artigos em destaque
         </h2>

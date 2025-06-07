@@ -1,10 +1,9 @@
-
 import { Code, Github, Linkedin, Mail, Twitter } from "lucide-react";
 
 export const Footer = () => {
   return (
     <footer className="bg-slate-900 dark:bg-slate-950 text-white py-16">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="px-2 sm:px-4 lg:px-6">
         <div className="grid md:grid-cols-3 gap-8">
           {}
           <div className="md:col-span-1">

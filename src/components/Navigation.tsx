@@ -1,4 +1,3 @@
-
 import { Code, Menu, X } from "lucide-react";
 import { useState } from "react";
 import { ThemeToggle } from "./ThemeToggle";
@@ -8,7 +7,7 @@ export const Navigation = () => {
 
   return (
     <nav className="bg-white/80 dark:bg-slate-900/80 backdrop-blur-md border-b border-slate-200 dark:border-slate-700 sticky top-0 z-50">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="px-2 sm:px-4 lg:px-6">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center space-x-2">
             <Code className="w-8 h-8 text-blue-600 dark:text-blue-400" />
